@@ -1,0 +1,53 @@
+body{
+    background-color: #ffbd59;
+    font-size: 10px;
+}
+
+img{
+    flex: 1;
+}
+
+label{
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #592b09; 
+    margin-bottom: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    flex: 0.4;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.container{
+    display: flex;
+}
